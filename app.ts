@@ -224,7 +224,6 @@ function generateRoomID() {
 
     return result;
 }
-
 app.get('/', (req: Request, res: Response) => {
     res.send('Hello from express!');
 });
